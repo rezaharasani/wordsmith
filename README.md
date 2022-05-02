@@ -1,10 +1,9 @@
 # Kubernetes Wordsmith Demo
 
-[![GitHub Super-Linter](https://github.com/bretfisher/k8s-wordsmith-demo/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/linter.yml)
-[![DB Build and Push Image](https://github.com/bretfisher/k8s-wordsmith-demo/actions/workflows/db.yml/badge.svg?branch=main)](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/db.yml)
-[![Web Build and Push Image](https://github.com/bretfisher/k8s-wordsmith-demo/actions/workflows/web.yml/badge.svg?branch=main)](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/web.yml)
-[![Words Build and Push Image](https://github.com/bretfisher/k8s-wordsmith-demo/actions/workflows/words.yml/badge.svg?branch=main)](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/words.yml)
-
+[![Lint Code Base](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-super-linter.yaml/badge.svg)](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-super-linter.yaml)
+[![Build DB](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-docker-build-db.yaml/badge.svg)](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-docker-build-db.yaml)
+[![Build Words](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-docker-build-words.yaml/badge.svg)](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-docker-build-words.yaml)
+[![Build Web](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-docker-build-web.yaml/badge.svg)](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-docker-build-web.yaml)
 
 Wordsmith is the demo project shown at DockerCon EU 2017 and 2018.
 
@@ -18,14 +17,13 @@ The demo app runs across three containers:
 
 ## Build and Run in Docker Compose
 
-The only requirement to build and run the app from source is Docker. Clone this repo and use Docker Compose to build all the images. You can use the new V2 Compose with `docker compose` or the classic `docker-compose` CLI:
+The only requirement to build and run the app from source is Docker. Clone this repository and use Docker Compose to build all the images. You can use the new V2 Compose with `docker compose` or the classic `docker-compose` CLI:
 
 ```shell
 docker compose up --build
 ```
 
 > Or you can pull pre-built images from Docker Hub using `docker compose pull`.
-
 
 ## Deploy Using a Kubernetes Manifest
 
