@@ -30,7 +30,8 @@ spec:
     spec:
       containers:
         - name: web
-          image: dockersamples/wordsmith-web
+          image: bretfisher/wordsmith-web
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
               name: web

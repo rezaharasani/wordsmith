@@ -31,7 +31,8 @@ spec:
     spec:
       containers:
         - name: api
-          image: dockersamples/wordsmith-api
+          image: bretfisher/wordsmith-api
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
               name: api
