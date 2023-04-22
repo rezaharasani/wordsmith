@@ -1,6 +1,5 @@
 # Wordsmith Example App
 
-[![Lint Code Base](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-super-linter.yaml/badge.svg)](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-super-linter.yaml)
 [![Build DB](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-docker-build-db.yaml/badge.svg)](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-docker-build-db.yaml)
 [![Build API](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-docker-build-api.yaml/badge.svg)](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-docker-build-api.yaml)
 [![Build Web](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-docker-build-web.yaml/badge.svg)](https://github.com/BretFisher/k8s-wordsmith-demo/actions/workflows/call-docker-build-web.yaml)
