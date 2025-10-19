@@ -14,7 +14,7 @@ The demo app runs across three containers:
 
 ## Architecture
 
-![Architecture diagram](architecture.excalidraw.png)
+![Architecture diagram](img/architecture.png)
 
 ## Build and run in Docker Compose
 
