@@ -14,7 +14,11 @@ The demo app runs across three containers:
 
 ## Architecture
 
-![Architecture diagram](img/architecture.png)
+<p align="center">
+  <img src="img/architecture.png" alt="Architecture diagram" width="300"/>
+</p>
+
+<!-- ![Architecture diagram](img/architecture.png) -->
 
 ## Build and run in Docker Compose
 
